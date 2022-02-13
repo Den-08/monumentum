@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    text-shadow: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.9);
+    color: white;
+    /*    mix-blend-mode: overlay;*/
+
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background 2s ease;
+
+}
+
+#currentDay {
+    font-size: 3rem;
+}
+
+#time {
+    font-size: 8rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+#button_bg {
+    width: 207px;
+    height: 52px;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+    background-color: dimgray;
+    font-size: 1rem;
+}
+
+@media(max-width: 700px) {
+    :root {
+        font-size: 11px;
+    }
+
+    #currentDay {
+        font-size: 2.6rem;
+    }
+
+    #time {
+        font-size: 7rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 400px) {
+    :root {
+        font-size: 9.5px;
+    }
+
+    #currentDay {
+        font-size: 2.2rem;
+    }
+
+    #time {
+        font-size: 6rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+}
