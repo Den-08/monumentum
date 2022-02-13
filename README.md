@@ -1,1 +1,1 @@
-https://den-08.github.io/shelter/monumentum
+https://den-08.github.io/monumentum
